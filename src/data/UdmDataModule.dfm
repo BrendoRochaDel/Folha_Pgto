@@ -5,11 +5,12 @@ object dmDataModule: TdmDataModule
     Params.Strings = (
       
         'Database=C:\Users\brend\OneDrive\Documentos\Embarcadero\Studio\P' +
-        'rojects\Folha_Pgto\banco\AULACLIENTS.FDB'
+        'rojects\Folha_Pgto\banco\banco.fdb'
       'User_Name=SYSDBA'
       'Password=masterkey'
       'Server=localhost'
       'Port=3050'
+      'Protocol=TCPIP'
       'DriverID=FB')
     Left = 32
     Top = 24
