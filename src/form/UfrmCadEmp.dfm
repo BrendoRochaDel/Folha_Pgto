@@ -58,7 +58,7 @@ inherited frmCadEmp: TfrmCadEmp
     Top = 153
     Width = 377
     Height = 49
-    Caption = 'Situa'#231#227'o'
+    Caption = 'Situa'#231#227'o da Empresa'
     Columns = 2
     DataField = 'SITEMP'
     DataSource = dts
