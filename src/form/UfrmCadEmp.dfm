@@ -42,7 +42,7 @@ inherited frmCadEmp: TfrmCadEmp
     Height = 23
     DataField = 'INSCEMP'
     DataSource = dts
-    TabOrder = 3
+    TabOrder = 4
   end
   object edtNom: TDBEdit [4]
     Left = 27
@@ -51,14 +51,14 @@ inherited frmCadEmp: TfrmCadEmp
     Height = 23
     DataField = 'DSCEMP'
     DataSource = dts
-    TabOrder = 4
+    TabOrder = 3
   end
   object drgSit: TDBRadioGroup [5]
     Left = 18
     Top = 153
     Width = 377
     Height = 49
-    Caption = 'Situa'#231#227'o'
+    Caption = 'Situa'#231#227'o da Empresa'
     Columns = 2
     DataField = 'SITEMP'
     DataSource = dts
