@@ -38,7 +38,6 @@ inherited frmEmp: TfrmEmp
     DataSet = dtsEmp
   end
   object dtsEmp: TFDQuery
-    Active = True
     Connection = dmDataModule.conexao
     SQL.Strings = (
       'SELECT * FROM TBLEMP')
