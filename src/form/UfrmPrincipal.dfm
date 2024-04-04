@@ -1644,22 +1644,4 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     TabOrder = 3
   end
-  object pTeste: TPanel
-    Left = 84
-    Top = 385
-    Width = 283
-    Height = 217
-    Caption = 'pTeste'
-    TabOrder = 4
-    Visible = False
-  end
-  object Button1: TButton
-    Left = 456
-    Top = 304
-    Width = 153
-    Height = 49
-    Caption = 'Button1'
-    TabOrder = 5
-    OnClick = Button1Click
-  end
 end

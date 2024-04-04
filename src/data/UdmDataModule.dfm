@@ -16,6 +16,7 @@ object dmDataModule: TdmDataModule
     Top = 24
   end
   object qryEmp: TFDQuery
+    Active = True
     Connection = conexao
     SQL.Strings = (
       'SELECT * FROM TBLEMP WHERE SITEMP = 1')

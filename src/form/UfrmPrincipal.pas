@@ -23,8 +23,6 @@ type
     SpeedButton4: TSpeedButton;
     btnCalDecTer: TSpeedButton;
     lkpEmp: TDBLookupComboBox;
-    pTeste: TPanel;
-    Button1: TButton;
     procedure SpeedButton1Click(Sender: TObject);
     procedure CloseFormMouseUp(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
