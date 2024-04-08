@@ -139,6 +139,8 @@ end;
 procedure TfrmPrincipal.FormShow(Sender: TObject);
 begin
   btnPrgEve.Caption := 'Programar' + #13 + 'Eventos';
+
+  dmDataModule.dtsEmp.DataSet.Open;
 end;
 
 procedure TfrmPrincipal.lkpEmpCloseUp(Sender: TObject);

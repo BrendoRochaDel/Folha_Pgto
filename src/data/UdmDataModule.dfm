@@ -13,12 +13,10 @@ object dmDataModule: TdmDataModule
       'Port=3050'
       'Protocol=TCPIP'
       'DriverID=FB')
-    Connected = True
     Left = 32
     Top = 24
   end
   object qryEmp: TFDQuery
-    Active = True
     Connection = conexao
     SQL.Strings = (
       'SELECT * FROM TBLEMP WHERE SITEMP = 1')

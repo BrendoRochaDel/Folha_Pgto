@@ -71,6 +71,8 @@ begin
   finally
    ConfigJSON.Free;
   end;
+
+  conexao.Connected;
 end;
 
 end.
