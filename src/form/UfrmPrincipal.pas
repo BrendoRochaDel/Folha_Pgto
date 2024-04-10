@@ -145,7 +145,11 @@ end;
 
 procedure TfrmPrincipal.lkpEmpCloseUp(Sender: TObject);
 begin
-  SistemaControle.CodigoEmpresaSelecionada := lkpEmp.KeyValue;
+  if not VarIsNull(lkpEmp.KeyValue) then
+    SistemaControle.CodigoEmpresaSelecionada := lkpEmp.KeyValue
+  else
+     SistemaControle.CodigoEmpresaSelecionada := 0;
+
   SistemaControle.MesSelecionado := MonthOf(dpMesAno.Date);
   SistemaControle.AnoSelecionado := YearOf(dpMesAno.Date);
 end;
